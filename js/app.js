@@ -1,12 +1,13 @@
 'use strict'
 //TODO: ask the user's name.
+let nombre = prompt("Welcome to my game! What is your name?");
 
 //TODO: Ask 5 y/n questions
 let answerOne = prompt("Did I take a web design class?");
 let answerTwo = prompt("Can I speak another language?");
 let answerThree = prompt("Is my favorite color yellow");
 let answerFour = prompt("Have I traveled outside of the US");
-let answerFive = prompt("Am I left-handed?")
+let answerFive = prompt("Am I left-handed?");
 
 //use if / else
 //if 'y' then you are correct
