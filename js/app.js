@@ -1,4 +1,5 @@
 'use strict'
+
 let nombre = prompt("Welcome to my game! What is your name?");
 
 let answerOne = prompt("Did I take a web design class?");
@@ -41,3 +42,4 @@ if(answerFive === 'y' || answerFive === 'yes'){
     
     console.log("Está mal");
 }
+
