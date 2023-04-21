@@ -41,3 +41,31 @@ if(answerFive === 'y' || answerFive === 'yes'){
     
     console.log("Está mal");
 }
+
+let response;
+let correctAnswer = 3
+let x;
+
+response = prompt("Can you guess a number for me");
+console.log("You said: " + x)
+
+x = parseInt(response)
+
+if (response > correctAnswer) {
+    alert("Too High");
+} else if (response > correctAnswer)
+    alert("Too Low"); {  
+} else if (x === correctAnswer){
+        alert("Awesome, you got it!")
+    }
+    
+
+let x = 3
+while(x === "3") {
+    response = prompt("Guess a number")
+    console.log("You said: " + response);
+    count = count + 1;
+    console.log("count: "  + count)
+
+}
+alert("You got it!")
