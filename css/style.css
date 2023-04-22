@@ -14,3 +14,11 @@ main {
     font-size: large;
     font-weight: bold;
 }
+ol {
+    list-style: numbers;
+    counter-reset: item;
+}
+li {
+    counter-increment: item;
+    margin-bottom: 5px;
+}
