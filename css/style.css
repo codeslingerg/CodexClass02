@@ -1,3 +1,16 @@
-body {
+body { 
     background-color: goldenrod;
+}
+main {
+    background-color: rgb(182, 132, 228);
+}
+header {
+    text-align: center;
+    font-size: larger;
+}
+main {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: bold;
 }
